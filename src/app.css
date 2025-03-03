@@ -1,0 +1,22 @@
+:root {
+  font-family: 'Miracode', sans-serif;
+  src: url('Miracode.ttf') format('woff');
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #000000cb;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-image: url('/public/fondo_lain.jpg');
+  background-size: cover;   /* Hace que la imagen cubra toda la pantalla */
+  background-position: center;  /* Centra la imagen en la pantalla */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  height: 100vh;  /* Asegura que el fondo cubra toda la altura de la pantalla */
+}
+
