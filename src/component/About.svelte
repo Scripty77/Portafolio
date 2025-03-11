@@ -94,7 +94,6 @@
 </style>
   
 <main class="about-container">
-    <div class="about-title">ABOUT ME</div>
     <div class="about-content">
       <p>My name is Jean, I am passionate about technology, I like to play with it, I like to read books and mathematics, I am currently a student of systems engineering. </p>
     </div>
@@ -137,6 +136,12 @@
             </div>
             <div class="tech-item">
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original-wordmark.svg" alt="Postgresql" class="tech-logo" />
+            </div>
+            <div class="tech-item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/svelte/svelte-original.svg" alt="Svelte" class="tech-logo" />
+            </div>
+            <div class="tech-item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg" alt="React" class="tech-logo" />
             </div>
           </div>
         </div>

@@ -37,13 +37,13 @@ function handleNavigation(component) {
       </a>
 
       <!-- svelte-ignore a11y_missing_attribute -->
-      <a class="sidebar__link" role="button" tabindex="0" on:click={() => handleNavigation('Proyect')} on:keydown={(e) => e.key === 'Enter' && handleNavigation('Proyect')}>
+      <a class:sidebar__link--active={currentComponent === Proyect} on:click={() => handleNavigation(Proyect)} on:keydown={(e) => e.key === 'Enter' && handleNavigation(Proyect)}>
         <img class="disc" src="/floppy-disc.png" alt="disc" />
         <span>PROJECTS</span>
       </a>
 
-      <!-- svelte-ignore a11y_missing_attribute -->
-      <a class="sidebar__link">
+    <!-- svelte-ignore a11y_missing_attribute -->
+      <a class:sidebar__link--active={currentComponent === Contact} on:click={() => handleNavigation(Contact)} on:keydown={(e) => e.key === 'Enter' && handleNavigation(Contact)}>
         <img class="phone" src="/flip-phone.png" alt="phone" />
         <span>CONTACT</span>
       </a>
