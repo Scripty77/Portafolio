@@ -13,9 +13,17 @@ function handleNavigation(component) {
 </script>
 
 <main>
+  <!-- Barra estilo Windows XP -->
+  <div class="xp-bar">
+    <div class="xp-button">_</div>
+    <div class="xp-button">□</div>
+    <div class="xp-button xp-close">X</div>
+    <div class="xp-title">Personal Folder</div>
+  </div>
+
   <header class="header">
     <div class="header__left">
-      <img class="nes-atari" src="/game.png" alt="atari" />
+      <img class="nes-atari" src="/certmgr.dll_14_453.ico" alt="pc" />
       <span class="site-title glitch">WELCOME A CYBERIA</span>
     </div>
     <div class="header__right neon">Cafe & Club</div>
@@ -27,24 +35,24 @@ function handleNavigation(component) {
     <nav class="sidebar__nav">
       <!-- svelte-ignore a11y_missing_attribute -->
       <a class:sidebar__link--active={currentComponent === Home} on:click={() => handleNavigation(Home)} on:keydown={(e) => e.key === 'Enter' && handleNavigation(Home)}>
-      <img class="pc" src="/computer.png" alt="pc" />
+      <img class="pc" src="/cmprops.dll_14_16.ico" alt="pc" />
         <span>HOME</span>
       </a>
       <!-- svelte-ignore a11y_missing_attribute -->
       <a class:sidebar__link--active={currentComponent === About} on:click={() => handleNavigation(About)} on:keydown={(e) => e.key === 'Enter' && handleNavigation(About)}>
-        <img class="user" src="/computer-window.png" alt="user" />
+        <img class="user" src="/cmd.exe_14_IDI_APPICON.ico" alt="user" />
         <span>ABOUT</span>
       </a>
 
       <!-- svelte-ignore a11y_missing_attribute -->
       <a class:sidebar__link--active={currentComponent === Proyect} on:click={() => handleNavigation(Proyect)} on:keydown={(e) => e.key === 'Enter' && handleNavigation(Proyect)}>
-        <img class="disc" src="/floppy-disc.png" alt="disc" />
+        <img class="disc" src="/dmdskres.dll_14_373.ico" alt="disc" />
         <span>PROJECTS</span>
       </a>
 
     <!-- svelte-ignore a11y_missing_attribute -->
       <a class:sidebar__link--active={currentComponent === Contact} on:click={() => handleNavigation(Contact)} on:keydown={(e) => e.key === 'Enter' && handleNavigation(Contact)}>
-        <img class="phone" src="/flip-phone.png" alt="phone" />
+        <img class="phone" src="/mapistub.dll_14_801.ico" alt="phone" />
         <span>CONTACT</span>
       </a>
     </nav>
@@ -61,7 +69,58 @@ function handleNavigation(component) {
 </main>
 
 <style>
-  /*estilos css*/
+  /* Barra estilo Windows XP */
+  .xp-bar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: linear-gradient(to bottom, #426eb6, #133488);
+    border: 2px solid #020203;
+    border-radius: 4px;
+    padding: 4px;
+    width: 100%;
+    box-shadow: inset -1px -1px 0px #ffffff, inset 1px 1px 0px #4a6aa1;
+  }
+
+  .xp-button {
+    width: 25px;
+    height: 22px;
+    margin: 0 2px;
+    border: 1px solid #4a6aa1;
+    border-radius: 2px;
+    background: linear-gradient(to bottom, #ffffff, #d6e4f2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
+    color: #000;
+    cursor: pointer;
+    box-shadow: inset -1px -1px 0px #ffffff, inset 1px 1px 0px #4a6aa1;
+  }
+
+  .xp-button:hover {
+    background: linear-gradient(to bottom, #d6e4f2, #ffffff);
+  }
+
+  .xp-close {
+    background: linear-gradient(to bottom, #ff5c5c, #d64545);
+    color: #fff;
+  }
+
+  .xp-close:hover {
+    background: linear-gradient(to bottom, #d64545, #ff5c5c);
+  }
+
+  .xp-title {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: "Tahoma", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+  }
   /* header */
   .header {
     position: absolute;

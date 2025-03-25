@@ -140,9 +140,6 @@
             <div class="tech-item">
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/svelte/svelte-original.svg" alt="Svelte" class="tech-logo" />
             </div>
-            <div class="tech-item">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg" alt="React" class="tech-logo" />
-            </div>
           </div>
         </div>
       </div>
