@@ -23,8 +23,5 @@
             "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original-wordmark.svg",
             "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original-wordmark.svg"
         ]}
-
-
-
-
+        link="https://github.com/Scripty77/Apispring"
 />
