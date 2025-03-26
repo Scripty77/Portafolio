@@ -167,6 +167,9 @@
         <div class="tech-item">
           <img src="/java-svgrepo-com.svg" alt="Java" class="tech-logo" />
         </div>
+        <div class="tech-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original-wordmark.svg" alt="spring" class="tech-logo" />
+        </div>
       </div>
     </div>
 

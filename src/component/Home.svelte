@@ -62,9 +62,9 @@
   <img src="/bezel.png"  id="bezel" class="noselect" />
   <div id="content" class="noselect">
     <h1>WELCOME</h1>
-    <p>I like cyberpunk and 2000s aesthetics, neon colors and anime Lain</p> I wanted my portfolio to represent that
+    <img src="/public/cmprops.dll_14_16.ico" id="compu" class="tech-logo" />
+    <p>FullStack Developer && Blockhain Estusiasta</p>
   </div>
-    
 </main>
 
 <div class="developer">
