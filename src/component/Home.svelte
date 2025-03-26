@@ -62,7 +62,7 @@
   <img src="/bezel.png"  id="bezel" class="noselect" />
   <div id="content" class="noselect">
     <h1>WELCOME</h1>
-    <img src="/public/cmprops.dll_14_16.ico" id="compu" class="tech-logo" />
+    <img src="/cmprops.dll_14_16.ico" id="compu" class="tech-logo" />
     <p>FullStack Developer && Blockhain Estusiasta</p>
   </div>
 </main>
