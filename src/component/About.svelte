@@ -129,28 +129,6 @@
 
   <!-- Contenedor de las categorías -->
   <div class="categories-container">
-    <!-- Front-End Section -->
-    <div class="category">
-      <div class="category-title">Front-End</div>
-      <div class="technologies-grid">
-        <div class="tech-item">
-          <img src="/html-5-svgrepo-com.svg" alt="HTML5" class="tech-logo" />
-        </div>
-        <div class="tech-item">
-          <img src="/css-3-svgrepo-com.svg" alt="CSS3" class="tech-logo" />
-        </div>
-        <div class="tech-item">
-          <img src="/javascript-svgrepo-com.svg" alt="JavaScript" class="tech-logo" />
-        </div>
-        <div class="tech-item">
-          <img src="/typescript-svgrepo-com.svg" alt="TypeScript" class="tech-logo" />
-        </div>
-        <div class="tech-item">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/svelte/svelte-original.svg" alt="Svelte" class="tech-logo" />
-        </div>
-      </div>
-    </div>
-
     <!-- Back-End Section -->
     <div class="category">
       <div class="category-title">Back-End</div>

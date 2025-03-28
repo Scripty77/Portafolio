@@ -54,7 +54,6 @@
 
 </style>
 
-
 <main class="about-container">
   <!-- svelte-ignore a11y_missing_attribute -->
   <img src="/scanlines.png" id="scan" class="noselect" />
@@ -63,10 +62,9 @@
   <div id="content" class="noselect">
     <h1>WELCOME</h1>
     <img src="/cmprops.dll_14_16.ico" id="compu" class="tech-logo" />
-    <p>FullStack Developer && Blockhain Estusiasta</p>
+    <p>Backend Developer && SysAdmin</p>
   </div>
 </main>
-
 <div class="developer">
   <div class="tech-item">
     <p>Developed with </p>
